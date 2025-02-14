@@ -12,7 +12,6 @@
     padding: 0.5rem;
 }
 
-
 .sidebar {
     background-color: black;
     width: 350px;
@@ -24,7 +23,6 @@
     flex: 1; /* This means "main-content" takes the remaining full space after "sidebar" */
     border-radius: 1rem; /*16px*/
     overflow: auto; /*Provides a scrollbar if the content is full*/
-    
 }
 .music-player {
     background-color: #070707;
@@ -155,7 +153,6 @@ a {
 }
 .sticky-nav-icons img {
     background-color: #232323;
-
 }
 .hide{
     margin-left: 0.5rem;
@@ -188,6 +185,7 @@ h2{
 h2:hover{
     text-decoration: underline;
 }
+
 .cards-container {
     background-color: #232323;
     padding: 1rem;
