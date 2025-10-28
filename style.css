@@ -177,7 +177,42 @@ a {
 
 @media (max-width: 1000px){
     .hide{
-        display: none;
+        display: none !important;
+    }
+}
+@media (max-width: 700px) and (min-width: 600px){
+    .badge-dark, .controls{
+        display: none !important;
+    }
+    .album {
+        width: 40% !important;
+    }
+    .player{
+        width: 60% !important;
+        padding: 10px !important;
+    }
+}
+@media (max-width: 600px){
+    .badge-dark, .album, .controls{
+        display: none !important;
+    }
+    .player{
+        width: 90% !important;
+        padding: 10px !important;
+    }
+}
+@media (max-width: 380px){
+    .player-control-icon {
+        height: 9px !important;
+        size: 15px !important;
+    }
+}
+@media (max-width: 550px){
+    .main-content {
+        display: none ;
+    }
+    .sidebar {
+        width: 100%;
     }
 }
 
@@ -274,7 +309,7 @@ h2:hover{
 }
 .album-icon2 {
     height: 2rem;
-} 
+}
 
 .player {
     width: 50%;
